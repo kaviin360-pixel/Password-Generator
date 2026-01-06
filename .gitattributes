@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
+# Auto handle line endings
 * text=auto
+
+# Web files
+*.html text
+*.css text
+*.js text
+
+# Images & binaries
+*.png binary
+*.jpg binary
